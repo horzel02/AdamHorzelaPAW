@@ -7,11 +7,8 @@ use app\transfer\CalcResult;
 
 class CalcCtrl {
 
-	private $msgs;   //wiadomości dla widoku
 	private $form;   //dane formularza (do obliczeń i dla widoku)
 	private $result; //inne dane dla widoku
-	private $hide_intro; //zmienna informująca o tym czy schować intro
-
 	
 	public function __construct(){
 		//stworzenie potrzebnych obiektów
